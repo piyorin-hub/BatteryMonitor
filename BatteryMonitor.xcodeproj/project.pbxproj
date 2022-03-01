@@ -13,6 +13,7 @@
 		47AEB01627CE7603007C0189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB01427CE7603007C0189 /* Main.storyboard */; };
 		47AEB01827CE7605007C0189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB01727CE7605007C0189 /* Assets.xcassets */; };
 		47AEB01B27CE7605007C0189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AEB01927CE7605007C0189 /* LaunchScreen.storyboard */; };
+		47AEB02327CE769A007C0189 /* BatteriMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AEB02227CE769A007C0189 /* BatteriMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		47AEB01727CE7605007C0189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47AEB01A27CE7605007C0189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47AEB01C27CE7605007C0189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AEB02227CE769A007C0189 /* BatteriMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteriMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				47AEB00E27CE7603007C0189 /* AppDelegate.swift */,
 				47AEB01027CE7603007C0189 /* SceneDelegate.swift */,
 				47AEB01227CE7603007C0189 /* ViewController.swift */,
+				47AEB02227CE769A007C0189 /* BatteriMonitor.swift */,
 				47AEB01427CE7603007C0189 /* Main.storyboard */,
 				47AEB01727CE7605007C0189 /* Assets.xcassets */,
 				47AEB01927CE7605007C0189 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				47AEB01327CE7603007C0189 /* ViewController.swift in Sources */,
 				47AEB00F27CE7603007C0189 /* AppDelegate.swift in Sources */,
+				47AEB02327CE769A007C0189 /* BatteriMonitor.swift in Sources */,
 				47AEB01127CE7603007C0189 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
