@@ -16,24 +16,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q2r-4P-3lY">
-                                <rect key="frame" x="87" y="341" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttB-W8-bmF">
-                                <rect key="frame" x="155" y="219" width="104" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="percentage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttB-W8-bmF">
+                                <rect key="frame" x="163.5" y="438" width="87" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="batteryStatusLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvv-Zs-e5c">
+                                <rect key="frame" x="135" y="304" width="145" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q2r-4P-3lY">
+                                <rect key="frame" x="87" y="544" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="L2i-RQ-i3E"/>
+                                    <constraint firstAttribute="width" constant="240" id="hkX-Jo-zg4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1NF-J4-py0"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1cf-sr-GPt"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="44I-gr-Mto"/>
+                            <constraint firstItem="q2r-4P-3lY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BHi-Ea-pI7"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CtL-el-P3N"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rnp-oa-YoC"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ih6-1m-IuS"/>
+                            <constraint firstItem="q2r-4P-3lY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jyf-va-TzU"/>
+                            <constraint firstItem="ttB-W8-bmF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y8B-az-yxM"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="batteryImage" destination="q2r-4P-3lY" id="OTV-sw-sWc"/>
-                        <outlet property="batteryLevel" destination="ttB-W8-bmF" id="Hiq-kj-D5p"/>
+                        <outlet property="batteryImage" destination="q2r-4P-3lY" id="Ojf-HB-6wB"/>
+                        <outlet property="batteryLebelLabel" destination="ttB-W8-bmF" id="fys-x5-6df"/>
+                        <outlet property="batteryStatusLabel" destination="Mvv-Zs-e5c" id="M8F-Eq-kDE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
